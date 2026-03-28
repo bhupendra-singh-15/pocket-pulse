@@ -182,7 +182,7 @@ const Categories = () => {
             placeholder="Category Name"
             value={form.name}
             onChange={handleChange}
-            className="w-full p-2 rounded bg-gray-800"
+            className="w-full p-2 rounded bg-gray-800 text-blue-50"
             required
           />
 
@@ -190,7 +190,7 @@ const Categories = () => {
             name="type"
             value={form.type}
             onChange={handleChange}
-            className="w-full p-2 rounded bg-gray-800"
+            className="w-full p-2 rounded bg-gray-800 text-blue-50"
           >
             <option value="EXPENSE">Expense</option>
             <option value="INCOME">Income</option>

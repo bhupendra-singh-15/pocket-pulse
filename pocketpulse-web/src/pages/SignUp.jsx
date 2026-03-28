@@ -65,7 +65,7 @@ const SignUp = () => {
           type="text"
           name="fullName"
           placeholder="Full Name"
-          className="w-full p-2 rounded bg-gray-800"
+          className="w-full p-2 rounded bg-gray-800 text-blue-50"
           onChange={handleChange}
           required
         />
@@ -74,7 +74,7 @@ const SignUp = () => {
           type="email"
           name="email"
           placeholder="Email"
-          className="w-full p-2 rounded bg-gray-800"
+          className="w-full p-2 rounded bg-gray-800 text-blue-50"
           onChange={handleChange}
           required
         />
@@ -83,7 +83,7 @@ const SignUp = () => {
           type="password"
           name="password"
           placeholder="Password"
-          className="w-full p-2 rounded bg-gray-800"
+          className="w-full p-2 rounded bg-gray-800 text-blue-50"
           onChange={handleChange}
           required
         />

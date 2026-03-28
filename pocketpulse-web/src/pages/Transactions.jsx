@@ -272,7 +272,7 @@ const Transactions = () => {
             placeholder="Amount"
             value={form.amount}
             onChange={handleChange}
-            className="w-full p-2 rounded bg-gray-800"
+            className="w-full p-2 rounded bg-gray-800 text-blue-50"
             required
           />
 
@@ -282,7 +282,7 @@ const Transactions = () => {
             placeholder="Title"
             value={form.name}
             onChange={handleChange}
-            className="w-full p-2 rounded bg-gray-800"
+            className="w-full p-2 rounded bg-gray-800 text-blue-50"
             required
           />
 
@@ -292,7 +292,7 @@ const Transactions = () => {
             placeholder="Description"
             value={form.description}
             onChange={handleChange}
-            className="w-full p-2 rounded bg-gray-800"
+            className="w-full p-2 rounded bg-gray-800 text-blue-50"
           />
 
           <input
@@ -300,7 +300,7 @@ const Transactions = () => {
             name="date"
             value={form.date}
             onChange={handleChange}
-            className="w-full p-2 rounded bg-gray-800"
+            className="w-full p-2 rounded bg-gray-800 text-blue-50"
             required
           />
 
@@ -308,7 +308,7 @@ const Transactions = () => {
             name="categoryId"
             value={form.categoryId}
             onChange={handleChange}
-            className="w-full p-2 rounded bg-gray-800"
+            className="w-full p-2 rounded bg-gray-800 text-blue-50"
             required
           >
             <option value="">Select Category</option>
