@@ -1,7 +1,7 @@
 # ===============================
 # Backend (Spring Boot)
 # ===============================
-pocketpulse-api/target/
+# pocketpulse-api/target/
 
 # ===============================
 # Frontend (React + Vite)
